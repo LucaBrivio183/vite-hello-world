@@ -11,4 +11,9 @@ export default {
 <template>
     <h1>{{ message }}</h1>
 </template>
-<style scoped></style>
+<style scoped>
+h1 {
+    text-align: center;
+    margin: 1rem auto;
+}
+</style>

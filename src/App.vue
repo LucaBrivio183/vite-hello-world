@@ -10,8 +10,18 @@ export default {
 </script>
 
 <template>
-  <AppTitle></AppTitle>
-  <AppHero></AppHero>
+  <div class="container">
+    <AppTitle></AppTitle>
+    <AppHero></AppHero>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+</style>
